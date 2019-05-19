@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author sreeramktm
+ */
+public class Patterns {
+     public static void main(String args[])
+    {
+        int  n=5;
+        for(int i=1;i<=n;i++)
+        {
+            for(int k=i;k>1;k--)
+            {
+                System.out.print(" ");
+            }
+        //    int temp=i;
+            for(int j=i;j<=n;j++)
+            {
+                   // int temp=i;
+                    {
+                    System.out.print(j+" ");
+            //    temp=temp+n;
+                    }
+            //     else   
+         //       System.out.print(j+6+" ");
+            }
+         //   while(i>1)
+        //    {
+        //        for(int k=i-1;k>=1;k--)
+        //        {
+        //           System.out.print(k+" ");
+        //        }
+            System.out.println();
+        }
+        for(int i=n;i>=1;i--)
+        {
+            for(int k=i-1;k>=1;k--)
+            {
+                System.out.print(" ");
+            }
+            for(int j=i;j<=n;j++)
+            {
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
+
+    
